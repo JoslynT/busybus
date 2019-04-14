@@ -1,7 +1,7 @@
 *, *:before, *:after { box-sizing: border-box; }
 
 body {
-font-family: Oswald;
+font-family: Arial, serif;
 font-size: 12px;
 background-color: #ffffff;
 }
@@ -12,6 +12,16 @@ background-color: #ffffff;
   background-color: #51C9E3;
 }
 
+.bright {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: -0.0241176em;
+  color: #FF2D55;
+  text-align: center;
+  margin: 20px 10px 10px 10px;
+}
 
 
 .ios{
@@ -32,13 +42,7 @@ background-color: #ffffff;
 }
 
 .red {
-  width: 70px;
-  height: 70px;
-  background: #FFFFFF;
-  border-radius: 50%;
-  float:right;
-  margin: -30px 0px 0px 0px;
-  border: 1px solid #FF2D55;
+   border: 1px solid #FF2D55;
 }
 
 .circle {
@@ -47,19 +51,18 @@ background-color: #ffffff;
       background: #3D3D3D;
       border-radius: 50%;
       float:right;
-	
-      /* margin: 2px 20px 2px -20px; */
+  }
 
-    }
+.green {
+	border: 1px solid #4CD964;
+}
 
 .time {
       width: 70px;
       height: 70px;
       background: #FFFFFF;
-      border: 1px solid #4CD964;
       border-radius: 50%;
       float:right;
-      margin: -30px 0px 0px 0px;
     }
 
 .location {
@@ -70,26 +73,22 @@ background-color: #ffffff;
   float: left;
   width: 420px;
   margin: 0px;
-  padding: 15px 15px 5px 15px;
-  height: auto;
+  padding: 15px 15px 10px 15px;
 }
 
 .arrow {
-  width: 20px;
-height: 0px;
-left: 79px;
-top: 376px;
-
-border: 1px solid #000000;
-box-sizing: border-box;
-margin: -8px 0px 6px 100px;
+  font-size:24px;
+  padding-left: 30px;
+  padding-right: 20px;
+  margin-top: 20px;
+  color:black;
 }
+
 .preview {
-  margin: 20px auto;
+  padding-bottom : 2px;
   height: 250px;
   background-size: 100%;
   background-repeat: no-repeat;
-  margin-bottom: -12px;
 }
 
 .map {
@@ -104,8 +103,6 @@ margin: -8px 0px 6px 100px;
   text-align: center;
   padding-left: 5px;
   padding-right: 10px;
-  
-
 }
 
 
@@ -114,47 +111,45 @@ margin: -8px 0px 6px 100px;
   text-align: center;
   max-width : 100%;
   height : auto;
+  font-family:arial;
 }
 
-h2 {
+.number {
   font-family: sans-serif;
   font-size: 24px;
   line-height: 1.2em;
   text-align: left;
+  float:left;
 }
 
-h3 {
+.dir {
   font-size: 14px;
   font-weight: 400;
   text-align: left;
+  font-family:arial;
   color: #A66E20;
+  float:left;
+  line-height:14px;
 }
 
-h4 {
-  font-family: Oswald;
+.mytime {
+  font-family: Arial;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   letter-spacing: -0.0241176em;
   color: #135D22;
   text-align: center;
-  margin: 25px 10px 10px 10px;
+  margin: 20px 10px 10px 10px;
 }
 
-h5 {
+.area {
   font-size: 14px;
   font-weight: 400;
   text-align: center;
-  margin:-14px 1px 10px 80px;
-}
+  max-width:100%;
+  height:auto;
+  font-family:arial;
+  color:black;
 
-h6 {
-  font-family: Oswald;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  letter-spacing: -0.0241176em;
-  color: #AD0020;
-  text-align: center;
-  margin: 25px 10px 10px 10px;
-  }
+}
