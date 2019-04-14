@@ -12,6 +12,13 @@ background-color: #ffffff;
   background-color: #51C9E3;
 }
 
+
+
+.ios{
+	max-width: 100%;
+	height: auto;
+}
+
 .left {
   width: 15px;
   height: 15px;
@@ -40,11 +47,12 @@ background-color: #ffffff;
       background: #3D3D3D;
       border-radius: 50%;
       float:right;
-      margin: 2px 20px 2px -20px;
+	
+      /* margin: 2px 20px 2px -20px; */
 
     }
 
-    .time {
+.time {
       width: 70px;
       height: 70px;
       background: #FFFFFF;
@@ -92,17 +100,20 @@ margin: -8px 0px 6px 100px;
 .emphasis {
   box-sizing: border-box;
   margin-bottom: 10px;
-  padding: 10px 0 15px 110px;
   position: middle;
   text-align: center;
+  padding-left: 5px;
+  padding-right: 10px;
+  
 
 }
 
 
-
-h1 {
+.title {
   font-size: 2em;
   text-align: center;
+  max-width : 100%;
+  height : auto;
 }
 
 h2 {
