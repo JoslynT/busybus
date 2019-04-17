@@ -11,7 +11,13 @@ background-color: #ffffff;
   width: 420px;
   background-color: #51C9E3;
 }
-
+.eastbound {
+  display: inline;
+  padding-left: 66px;
+  padding-right: 20px;
+  margin-top: 20px;
+  color:black;
+}
 .reroute {
   display: inline;
   padding-left: 86px;
