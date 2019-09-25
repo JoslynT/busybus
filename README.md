@@ -9,7 +9,7 @@ https://img.shields.io/badge/BusyBus-Track%20your%20bus%20all%20the%20time!-brig
 
 User were having problems reading and tracking arrival and departure times of a bus or train. User did not know when and where to show up to a certain stop due to additional expansion of routes and stops. 
 
-Project tast were to re-design the screen to deliver information from a quick look while informing the user where and when to board thier bus.
+Project tasks were to re-design the screen to deliver information from a quick look while informing the user where and when to board thier bus.
 
 Went through researching other companies, collecting user surveys and data , created sketches, interations of wireframes, conducted testing of usability and coding of design solution.
 
