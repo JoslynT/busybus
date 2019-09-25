@@ -3,7 +3,7 @@
 
 BusyBus is a public transportation app that allows you to track your buses in real-time and options to select your favorite routes
 
-https://img.shields.io/static/v1?label=<BusyBus>&message=<Track your bus all the time!>&color=<brightgreen>
+https://img.shields.io/badge/BusyBus-Track%20your%20bus%20all%20the%20time!-brightgreen
 ## about project
 "From solving a user problem comes the solution of a screen design here you can see all files involed in doing so."
 
