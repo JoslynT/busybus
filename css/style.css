@@ -1,7 +1,7 @@
 *, *:before, *:after { box-sizing: border-box; }
 
 body {
-font-family: Arial, serif;
+font-family: Helvetica, serif;
 font-size: 12px;
 background-color: #ffffff;
 }
@@ -11,14 +11,72 @@ background-color: #ffffff;
   width: 420px;
   background-color: #51C9E3;
 }
+.eastbound {
+  display: inline;
+  padding-left: 66px;
+  padding-right: 20px;
+  margin-top: 20px;
+  color:black;
+}
+.reroute {
+  display: inline;
+  padding-left: 86px;
+  margin-top: 20px;
+  padding-right: 20px;
+  color: black;
+}
+
+.resumes {
+  display: inline;
+  padding-left: 79px;
+  margin-top: 20px;
+  padding-right: 20px;
+  color: black;
+}
+
+.fa-long-arrow-alt-right {
+  box-sizing: border-box;
+  padding: 10px
+}
+.fa-chevron-left {
+  float: left;
+  margin-left: 10px;
+}
+
+.fa-bars{
+  float: right;
+  margin: -21px 10px 10px 10px;
+}
 
 .bright {
-  font-family: Arial;
+  font-family: Helvetica;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   letter-spacing: -0.0241176em;
-  color: #FF2D55;
+  color: #535353;
+  text-align: center;
+  margin: 20px 10px 10px 10px;
+}
+
+.out {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: -0.0241176em;
+  color: #AD0020;
+  text-align: center;
+  margin: 20px 10px 10px 10px;
+}
+
+.grey {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: -0.0241176em;
+  color: #F2F2F2;
   text-align: center;
   margin: 20px 10px 10px 10px;
 }
@@ -29,41 +87,16 @@ background-color: #ffffff;
 	height: auto;
 }
 
-.left {
-  width: 15px;
-  height: 15px;
-  transition: .5s;
-  float: left;
-  box-shadow: -2px 2px 0 rgba(255, 255, 255, 0.5);
-  transform: rotate(45deg);
-  margin: 10px 0px 0px 15px;
-  color: #3D3D3D;
-
-}
-
-.red {
-   border: 1px solid #FF2D55;
-}
-
-.circle {
-      width: 30px;
-      height: 30px;
-      background: #3D3D3D;
-      border-radius: 50%;
-      float:right;
-  }
-
-.green {
-	border: 1px solid #4CD964;
-}
 
 .time {
-      width: 70px;
-      height: 70px;
-      background: #FFFFFF;
-      border-radius: 50%;
-      float:right;
-    }
+  left: 278px;
+  top: 334px;
+  width: 70px;
+  height: 70px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  float:right;
+}
 
 .location {
   display: inline;
@@ -77,8 +110,9 @@ background-color: #ffffff;
 }
 
 .arrow {
+  display: inline;
   font-size:24px;
-  padding-left: 30px;
+  padding-left: 60px;
   padding-right: 20px;
   margin-top: 20px;
   color:black;
@@ -115,7 +149,7 @@ background-color: #ffffff;
 }
 
 .number {
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 24px;
   line-height: 1.2em;
   text-align: left;
@@ -123,17 +157,17 @@ background-color: #ffffff;
 }
 
 .dir {
+  display: inline;
   font-size: 14px;
   font-weight: 400;
   text-align: left;
   font-family:arial;
-  color: #A66E20;
   float:left;
   line-height:14px;
 }
 
 .mytime {
-  font-family: Arial;
+  font-family: Helvetica;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -144,6 +178,7 @@ background-color: #ffffff;
 }
 
 .area {
+  display: inline;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
