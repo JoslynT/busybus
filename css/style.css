@@ -54,11 +54,16 @@ background-color: #ffffff;
   font-weight: 300;
   font-size: 14px;
   letter-spacing: -0.0241176em;
+<<<<<<< HEAD
   color: #535353;
+=======
+  color: #FF2D55;
+>>>>>>> 9aa78947a5fa39001a653dfbf40dc537ca7120ac
   text-align: center;
   margin: 20px 10px 10px 10px;
 }
 
+<<<<<<< HEAD
 .out {
   font-family: Helvetica;
   font-style: normal;
@@ -87,6 +92,30 @@ background-color: #ffffff;
 	height: auto;
 }
 
+=======
+
+.ios{
+	max-width: 100%;
+	height: auto;
+}
+
+
+.red {
+   border: 1px solid #FF2D55;
+}
+
+.circle {
+      width: 30px;
+      height: 30px;
+      background: #3D3D3D;
+      border-radius: 50%;
+      float:right;
+  }
+
+.green {
+	border: 1px solid #4CD964;
+}
+>>>>>>> 9aa78947a5fa39001a653dfbf40dc537ca7120ac
 
 .time {
   left: 278px;
@@ -162,6 +191,10 @@ background-color: #ffffff;
   font-weight: 400;
   text-align: left;
   font-family:arial;
+<<<<<<< HEAD
+=======
+  color: #A66E20;
+>>>>>>> 9aa78947a5fa39001a653dfbf40dc537ca7120ac
   float:left;
   line-height:14px;
 }
